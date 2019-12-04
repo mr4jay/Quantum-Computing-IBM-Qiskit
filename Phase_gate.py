@@ -10,6 +10,7 @@ q=QuantumRegister(1,name='q')
 c=ClassicalRegister(1,name='c')
 qc=QuantumCircuit(q,c,name='qc')
 
+qc.iden(q[0)
 qc.u1(m.pi/4,q[0])
 
 print(circuit_drawer(qc))
